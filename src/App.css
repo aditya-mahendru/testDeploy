@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: 'Calligraffitti';
+}
+
+/* App.css */
+.home-page {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.yes-button {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.no-button {
+  margin: 10px;
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.page-title {
+  font-size: 64px;
+  /* Adjust the font size as needed */
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.celebration-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* Adjust as needed to center content vertically */
+}
+
+.celebration-title {
+  font-size: 96px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
